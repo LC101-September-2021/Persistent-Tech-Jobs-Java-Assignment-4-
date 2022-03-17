@@ -5,5 +5,6 @@ select column_name,data_type from information_schema.columns where table_schema 
 SELECT name FROM employer WHERE location = "St. Louis City";
 
 -- Part 3: Test it with SQL
+DROP TABLE job;
 
 -- Part 4: Test it with SQL
